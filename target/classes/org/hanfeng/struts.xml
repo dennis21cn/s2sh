@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN" "struts-2.1.7.dtd" >
+<struts>
+	<constant name="struts.objectFactory" value="spring"></constant>
+	<package name="user" extends="struts-default">
+		<action name="getallstu" class="org.hanfeng.action.StudentAction">
+			<result name="success">result.jsp</result>
+		</action>
+	</package>
+</struts>
